@@ -1,1 +1,33 @@
 .claude/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# DCF Builder specific
+.dcf_builder_cache/
+
+# Environment/secrets
+.env
+*.env
+config.local.py
